@@ -1,0 +1,45 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+.wrap{
+	width:1920px;
+	height:2000px;
+	background-color: antiquewhite;
+	margin:auto;
+}
+.your-class{
+	width:1000px;
+	height:600px;
+	outline:1px solid red;
+	margin: auto;
+	position: relative;
+	top:100px;
+}
+.txt-box{
+	width:216px;
+	height:50px;
+}
+.txt-box  > h3,p{
+	text-align: center;
+}
+.img-box > img{
+	width:216px;
+}
+.prev-arrow{
+	position:absolute;
+	top:100px;
+	left:0;
+	z-index:9;
+	font-size:50px;
+	color:cadetblue;
+}
+.next-arrow{
+	position:absolute;
+	top:100px;
+	right:0;
+	z-index:9;
+	font-size:50px;
+	color:cadetblue;
+}
